@@ -17,9 +17,12 @@ function changeText() {
 }
 
 //Ex 5
-function addList() {
-    
-}
-
+const button = document.getElementById('addList');
+ function addListItem() {
+    const list = document.getElementById('itemList');
+    const newList = document.createElement('li');
+    newList.textContent = 'New Item';
+    list.appendChild(newList);
+};
 
 
